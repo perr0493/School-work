@@ -13,16 +13,25 @@ p{
 }
 
 .quotes{
+    padding-top: 50px;
     font-style: italic;
-    padding-top: 200px;
+   
 }
 
 footer {
     text-align: right;
-    padding-top: 450px;
+    padding-top: 265px;
     font-size: 8pt;
 }
 
 img{
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
+
+body {
+    background-color: lightblue;
+  }
