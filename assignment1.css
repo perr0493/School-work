@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+
+}
+
+.quotes{
+    font-style: italic;
+    padding-top: 200px;
+}
+
+footer {
+    text-align: right;
+    padding-top: 450px;
+    font-size: 8pt;
+}
+
+img{
+    text-align: center;
+}
