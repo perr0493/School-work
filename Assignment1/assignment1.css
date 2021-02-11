@@ -15,12 +15,11 @@ p{
 .quotes{
     padding-top: 50px;
     font-style: italic;
-   
+    text-align: center;
 }
 
 footer {
-    text-align: right;
-    padding-top: 265px;
+    padding-top: 98px;
     font-size: 8pt;
 }
 
@@ -35,3 +34,21 @@ img{
 body {
     background-color: lightblue;
   }
+
+h3 {
+    text-align: center;
+  }
+
+li{
+    display: inline;
+}
+
+nav{
+    text-align: center;
+}
+
+nav, nav a {
+    background-color: #00ccff;
+    color:white;
+    font-size: 18pt;
+}

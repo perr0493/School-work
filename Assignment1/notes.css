@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+  }
+
+  footer {
+    text-align: center;
+    padding-top: 460px;
+    font-size: 8pt;
+}
+
+nav{
+    text-align: center;
+}
+
+nav, nav a {
+    background-color: #00ccff;
+    color:white;
+    font-size: 18pt;
+}
+
+li{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+}
