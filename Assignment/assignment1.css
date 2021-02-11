@@ -39,11 +39,15 @@ h3 {
     text-align: center;
   }
 
-li{
+.bar{
     display: inline;
 }
 
 nav{
+    text-align: center;
+}
+
+li{
     text-align: center;
 }
 
