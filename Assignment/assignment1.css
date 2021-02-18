@@ -19,7 +19,7 @@ p{
 }
 
 footer {
-    padding-top: 98px;
+    padding-top: 60px;
     font-size: 8pt;
 }
 
@@ -43,6 +43,7 @@ h3 {
 
 .bar{
     display: inline;
+    
 }
 
 nav{
@@ -54,7 +55,47 @@ li{
 }
 
 nav, nav a {
-    background-color: #00ccff;
+   
     color:white;
     font-size: 18pt;
 }
+
+header,footer{
+    background-color: aquamarine;
+}
+
+.site-title{
+    color: #00ccff;
+}
+
+#my-image{
+        
+        box-shadow:0px 0px 2px 1px black;  
+}
+
+ul{
+    list-style: square;
+    
+}
+
+
+ul li:nth-child(odd){
+    background-color: blueviolet;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: #00ccff;
+    border: coral;
+    border-style: solid;
+    
+}
+
+a:hover {
+    background-color: lightgreen;
+    
+  }
+
+    
+
+
