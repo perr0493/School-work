@@ -1,0 +1,740 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* end of reset */
+
+
+
+
+
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    padding: 15px;
+    background-color: #222;
+    
+}
+
+header button{
+    color: #c78c06;
+    background-color:#222; 
+    border: #c78c06;
+}
+
+
+header input{
+    width: 81%;
+}
+
+header form{
+    text-align: center;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #c78c06;
+}
+
+nav ul{
+    margin: 0px;
+    padding-left: 0px;
+
+}
+
+nav ul li{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.logo{
+    background-color: #c78c06;
+}
+
+.current{
+    background-color: #c78c06;
+}
+
+.current a{
+    color: #222;
+}
+
+.Welcome-Page{
+    color: white;
+    background-image:url("./images/main-banner.jpg");
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-position: center;
+}
+
+.main-banner{
+    padding: 20px;
+    background-color: rgba(34, 34, 34, 0.664);
+    
+}
+
+.main-banner h1{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+.main-banner button{
+    color: #222 ;
+    background-color:#c78c06 ;
+    border: none;
+    padding: 20px;
+
+}
+
+.main-banner span{
+    padding-left: 10px;
+}
+
+.main-banner p{
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.About-Us{
+    background-color: #ffe6ac;
+    padding:15px;
+}
+
+.About-Us h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.about-content{
+    padding: 15px;
+}
+
+.about-content p{
+    padding-bottom: 15px;
+}
+
+.about-content h2{
+    padding-bottom: 15px;
+}
+
+.About-Us img{
+    width: 100%;
+}
+
+.Our-Services{
+    padding: 15px;
+}
+
+.servicestitle h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding: 15px;
+    
+    
+}
+
+.section-text{
+    background-color: #ffe6ac;
+    padding: 15px;
+    
+}
+
+.section-text h3{
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section-text button{
+    background-color: #222;
+     color:white;
+     border:none;
+     padding: 20px;
+     font-weight: bold;
+}
+
+.section-text button span{
+    padding:10px;
+}
+
+.section-text p{
+    padding-bottom: 15px;
+}
+
+.section img{
+    width: 100%;
+}
+
+.section{
+    margin-top: 10px;
+}
+
+.Our-Vision h4{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.Our-Vision{
+    background-image:url("./images/vision.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-bottom: 60px;
+    padding: 15px;
+}
+
+.Our-Vision button{
+    background-color: rgba(34, 34, 34, 0.575);
+     color:white;
+     border-color:  #c78c06;
+     padding: 20px;
+     font-weight: bold;
+     
+}
+
+.Our-Vision p{
+    padding-bottom: 15px;
+}
+
+.Our-Vision button span{
+    padding:10px;
+}
+
+.Our-Team h4{
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-bottom: 1px solid #c78c06;
+}
+
+.Our-Team{
+    padding: 15px;
+}
+
+.Our-Team p{
+    padding-top: 15px;
+    line-height: 20px;
+}
+
+.teamtitle{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;  
+}
+
+.Contact-Us h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+
+.Contact-Us h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+    
+}
+
+.Contact-Us input[type=text], select{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.Contact-Us input[type=text]:nth-child(6){
+    padding-bottom:6em;
+}
+
+.Contact-Us{
+    padding: 15px;
+}
+
+.Contact-Us input[type=submit]{
+    background-color: rgb(34, 34, 34);
+     color: #c78c06;
+     border:none;
+     font-size: 20px;
+     margin-top: 15px;
+     
+}
+
+.daystable table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+.daystable td, th{
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+    
+    
+
+}
+
+.daystable th   {
+    background-color: #ffe6ac ;
+    text-align: center;
+
+}
+
+.Hours{
+    padding-top: 15px;
+}
+
+.location{
+    padding: 15px;
+}
+
+.location h1{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+footer{
+    background-color: #222;
+    color: #c78c06 ;
+    padding: 15px;
+    font-size: 10px;
+}
+
+.copyright{
+    padding-bottom: 15px;
+}
+
+
+/* end of mobile code */
+
+@media screen and (min-width: 760px){
+
+    .clearfix::after {
+        content:"";
+        clear:both;
+        display:table;
+    }
+
+    header{
+        background-color: #222;
+        padding: 30px;
+    }
+
+    .logo{
+        margin-top: 15px;
+        padding-left: 380px;
+        padding-right: 40px;
+        background-color: #222;
+        float: left;
+    }
+
+    nav li{
+        display: inline;
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+
+    header input{
+        width: 15%;
+        padding: 10px;
+        
+    }
+
+    nav{
+        padding-top: 40px;
+      
+    }
+
+    header button{
+        color: #c78c06;
+        background-color:#222; 
+        border: solid 1px;
+        padding:10px;
+    
+    }
+
+    nav li{
+        float: left;
+    }
+
+    header form{
+        padding-right: 480px;
+    }
+
+    .Welcome-Page{
+        color: white;
+        background-image:url("./images/main-banner.jpg");
+        background-size: cover;
+        padding: 130px;
+       
+        background-position: center;
+    }
+
+    .main-banner{
+        padding: 70px;
+    background-color: rgba(34, 34, 34, 0.664);
+    
+}
+
+.main-banner h1{
+    font-size: 105px;
+    font-weight: bold;
+    line-height: 130px;
+}
+
+.main-banner button{
+    color: #222 ;
+    background-color:#c78c06 ;
+    border: none;
+    padding: 40px;
+    width: 20%;
+    font-size: 20px;
+
+}
+
+.main-banner span{
+    padding-left: 10px;
+}
+
+.main-banner p{
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.About-Us{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 0.25, 1fr;
+    grid-template-areas:
+    "img h2"
+    "img p";
+}
+
+.About-Us img{
+    grid-area: img;
+    width: 80%;
+    padding-left: 190px;
+}
+
+
+.About-Us h2{
+    margin-left: 15px;
+    grid-area: h2;
+    font-size: 60px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.About-Us p{
+    padding: 10px;
+    padding-right: 200px;
+    padding-left: 30px;
+    line-height: 20px;
+    grid: p;
+}
+
+.Our-Services{
+    display: grid;
+    grid-gap: 20px;
+    margin-left: 150px ;
+    margin-right: 150px ;
+    grid-template-columns: (6,1fr);
+    grid-template-rows: (2,1fr);
+    grid-template-areas:
+    "dig dig dig mar mar mar"
+    "vid vid web web pri pri";
+}
+
+.Our-Services .section:nth-child(1){
+    grid-area: dig;
+    margin-bottom:auto ;
+    padding-bottom: 10px;
+
+}
+
+.Our-Services .section:nth-child(2){
+    grid-area: mar;
+    margin-bottom:auto ;
+    padding-bottom: 10px;
+}
+
+.Our-Services .section:nth-child(3){
+    grid-area: vid;
+    margin-bottom:auto ;
+    padding-bottom: 10px;
+}
+
+.Our-Services .section:nth-child(4){
+    grid-area: web;
+    margin-bottom:auto ;
+    padding-bottom: 10px;
+}
+
+.Our-Services .section:nth-child(5){
+    grid-area: pri;
+    margin-bottom:auto ;
+    padding-bottom: 10px; 
+}
+
+.Our-Services .section h3{
+    font-size: 40px;
+}
+
+
+.Our-Services .section button{
+    padding: 40px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.Our-Services img{
+   width: 100%;
+   height: auto;
+
+}
+
+.Our-Services .section:nth-child(2) p{
+    padding-bottom: 35px;
+}
+
+.Our-Services .section:nth-child(3) p{
+    padding-bottom: 47px;
+}
+
+.Our-Services .section:nth-child(5) p{
+    padding-bottom: 68px;
+}
+
+.servicestitle h2{
+    padding-top: 70px;
+    padding-left: 160px;
+    font-size: 60px;
+
+}
+
+ .Our-Vision{
+        background-position: center ;
+        padding-left: 250px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 200px;
+    }
+
+    .Our-Vision h4{ 
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+
+    .Our-Vision button{
+        padding: 40px;
+        width: 15%;
+        font-size: 17px;
+
+    }
+
+
+.Our-Team{
+    display:grid;
+    margin-left: 120px ;
+    margin-right: 120px ;
+    margin-bottom: 120px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "picb bcontent"
+    "jcontent picj";
+}
+
+.Our-Team  .section:nth-child(1){
+    grid-area: picj;
+}
+
+.Our-Team  .section:nth-child(2){
+    grid-area: picb;
+}
+
+.Our-Team .section-text:nth-child(1) {
+    grid-area: jcontent;
+}
+
+.Our-Team .section-text:nth-child(2){
+    grid-area: bcontent;
+}
+
+.Our-Team .section{
+    margin-top: 0;
+}
+
+.teamtitle{
+    padding: 15px;
+    padding-left: 140px;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+.botgrid { 
+    display:grid; 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    box-sizing: border-box;
+    padding-left: 130px;
+    padding-right: 130px;
+    width:100%;
+   
+    grid-template-areas: 
+    "Contact location"
+    "Hours Hours"
+    ;
+
+}
+
+.Contact-Us { 
+    grid-area: Contact;
+    
+}
+
+.daystable{
+    grid-area: Hours;
+}
+
+.location { 
+    grid-area: location;
+}
+
+.location iframe{
+    width:96%;
+    padding:0;
+
+    
+}
+
+.daystable{
+    width: 200%;
+    
+    
+}
+
+footer { 
+    padding-left: 110px;
+    
+}
+
+footer p{ 
+    font-size: 13px;
+    
+}
+
+.daystable td, th{
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: left;
+}
+
+.daystable h3{
+    padding-bottom: 40px;
+    font-size: 35px;
+}
+
+.Contact-Us h2{
+    font-size: 60px;
+}
+
+.Contact-Us h3{
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.Contact-Us input[type=text]:nth-child(6){
+    padding-bottom:10em;
+}
+
+.Contact-Us input[type=submit]{
+     padding: 10px;
+}
+
+.location h1{
+    font-size: 35px;
+}
+
+
+
+    
+
+
+   
+
+
+
+
+}
