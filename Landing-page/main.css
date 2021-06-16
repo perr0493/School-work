@@ -48,13 +48,13 @@ body{
   background-color:#F7F7FF;
 }
 
+header {
+  margin-top: 20px;
+}
+
 .grid-wrap {
   width: 85%;
   margin: 0 auto;
-}
-
-header {
-  margin-top: 20px;
 }
 
 .content, section {
@@ -107,13 +107,6 @@ input{
   margin:8px 0;
 }
 
-input, textarea, .text-checkbox {
-  font-family:'Montserrat', sans-serif;
-  font-size: 20px;
-  color: #9B9B9B;
-  padding:10px;
-}
-
 input[type=checkbox] {
   color: #333131;
   width: unset;
@@ -121,8 +114,12 @@ input[type=checkbox] {
   margin-right: 20px;
 }
 
-div.text-checkbox {
-  color:#333131;
+input, textarea, .text-checkbox {
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #9B9B9B;
+  padding:10px;
+
 }
 
 input[type=submit] {
@@ -132,6 +129,12 @@ input[type=submit] {
   color: #333131;
   background-color: #57EEAB;
 }
+
+
+div.text-checkbox {
+  color:#333131;
+}
+
 
 footer {
   background-color: #FFFD8C;
