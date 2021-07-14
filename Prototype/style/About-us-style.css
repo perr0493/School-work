@@ -42,7 +42,7 @@ table {
 }
 /*==========================================CSS RESET====================================================*/
 
-/*==========================================Destop====================================================*/
+/*==========================================Mobile====================================================*/
 
 body{
     background-color: wheat;
@@ -210,7 +210,7 @@ font-size: 2rem;
   
 
 .mail{
-    animation-name: sending;
+    animation-name: sending; /*The mail animation */
     animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
@@ -219,6 +219,9 @@ font-size: 2rem;
 @keyframes sending {
     70% { transform: translate(50px)}
     }
+
+
+/*==========================================Tablet====================================================*/
 
 @media (min-width:768px){
     .nav {
@@ -262,7 +265,7 @@ font-size: 2rem;
     }
 }
 
-
+/*==========================================Desktop====================================================*/
 @media (min-width:1000px){
     .icecreamtext{
         padding-bottom: 18rem;
