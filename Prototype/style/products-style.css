@@ -45,14 +45,68 @@ table {
 /*==========================================Destop====================================================*/
 
 
-body {
-    background-image: url("../images/background-960.png");
-    background-repeat: no-repeat; /* Do not repeat a background image. */
-    background-position: center; /* the image must be in the center of the bage */
-    background-attachment: fixed; /* don't scroll along with the page */
-    background-size: 100% 100%;
-    position: relative;
+h1{
+    color: #ec0404;
+    text-align: center;
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+.icecream img{
+    width: 150px;
+    height: auto;
     
+}
+
+.Vanilla{
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    text-align:left ;
+    font-size: 1.5rem;
+    color: #f8dddd;;
+}
+
+.Caramel{
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    text-align:left ;
+    font-size: 1.5rem;
+    color: #f5ce85;;
+}
+
+.Chocolate{
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    text-align:left ;
+    font-size: 1.5rem;
+    color: brown;;
+}
+
+.Strawberry{
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    text-align:left ;
+    font-size: 1.5rem;
+    color: rgb(243, 116, 190);;
+}
+
+
+
+  .column {
+    float: left;
+    width: 100%;
+    padding-left: 10rem;
+    box-sizing: border-box;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+p{
+    padding-top: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8rem;
 }
 
 header{
@@ -83,6 +137,8 @@ header{
   font-size: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  
+  
 }
 
 .nav a:hover{
@@ -135,7 +191,15 @@ header{
     padding: 8px 0px 8px;
 }
 
+
+
 @media (min-width:768px){
+
+    .column{
+        width: 25%;
+        padding-top: 3rem;
+        padding-left: 2rem;
+    }
     .nav {
         overflow: hidden;
         text-align: center;
@@ -169,7 +233,6 @@ header{
     .insta{
         width: 3.5%;
     }
-
 }
 
 
@@ -200,6 +263,15 @@ header{
         float: left;
     }
 
+
+    .column{
+        width: 25%;
+        padding-top: 3rem;
+        padding-left: 10rem;
+    }
+
+    
+
     .facebook{
         width: 3.5%;
         
@@ -211,5 +283,4 @@ header{
     .insta{
         width: 2%;
     }
-
 }

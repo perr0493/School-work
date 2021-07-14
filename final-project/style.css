@@ -317,37 +317,13 @@ nav ul li{
 
 .Contact-Us input[type=submit]{
     background-color: rgb(34, 34, 34);
-     color: #c78c06;
+     color: #ffffff;
      border:none;
      font-size: 20px;
      margin-top: 15px;
      
 }
 
-.daystable table{
-    border-collapse: collapse;
-    width: 100%;
-    
-}
-
-.daystable td, th{
-    border: 1px solid #999;
-    padding: 0.5rem;
-    text-align: left;
-    
-    
-
-}
-
-.daystable th   {
-    background-color: #ffe6ac ;
-    text-align: center;
-
-}
-
-.Hours{
-    padding-top: 15px;
-}
 
 .location{
     padding: 15px;
