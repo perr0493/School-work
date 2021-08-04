@@ -202,11 +202,6 @@ font-size: 2rem;
   .flexitems {
     padding: 8px 0px 8px;
 }
-.rotate {
-    animation: rotation 8s infinite linear inplace;
-  }
-  
- 
   
 
 .mail{

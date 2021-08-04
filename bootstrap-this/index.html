@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Bootstrap This! </title>
+  </head>
+  <body>
+        <!-- the Navbar-toggler can be used as a button and like a drop down menu once clicked it could hold the search bar and the rest of the nav for example but I just put it here for looks -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                    <!-- nav-link active makes the Home whiter then the other navs for example look at the about and notice how its gray -->
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" >About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <!-- The bg-gradient adds that nice white fade out under the nav bar gives the website that clean look -->
+        <header class="main-header bg-dark bg-gradient text-light">
+       
+      <div class="py-5">
+       
+        <div class="container" >
+            <div class="text-center justify-content-center align-self-center">
+                <div class="jumbotron">
+                <h1 class="display-4">What Is Bootstrap?</h1>
+                <p class="lead">Bootstrap is used to create responsive websites without any use of CSS, it's like a giant libary of css that uses javascript to do the work without you even knowning 
+                    it. But just remember just like css you should work on mobile first and with bootstrap its even easier with its awesome powerful mobile-first flex grid to build layouts of
+                    all shaps and sizes. with all this power how could anything go wrong ?.</p>
+                  <!-- The my-4 is to put the line that is inbetween the paragrah and the button which makes it have more space and look cleaner-->  
+                <hr class="my-4">
+                
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                
+            </div>
+        </div>
+      </div>
+    </header>
+<!-- Main Content-->
+<body class="bg-dark text-light">
+    
+    <div class="container">
+        <div class="row">
+
+            <h2 class="text-center">Where do I start with Bootstrap ?</h2>
+
+            <div class="py-4 col-md-8  ">
+                <img src="images/bootstrap image.jpg" class="img-fluid mb-3 img-thumbnail align-middle bg-secondary  " alt="computerscreen of code">
+                </div>
+<!-- Whever you see me  use the py-# it is too add spacing to make thing more leveled to look cleaner -->
+                <div class="py-5 col-md-4 float">
+                    <p>
+                        First things first you need to open your coding software I use visual studio code. Then make a new page called it index.html from there you will need to link the bootstrap
+                        so go to https://getbootstrap.com/docs/5.0/getting-started/introduction/ and there under CSS you will find a 'link' which you will fit nicely into your head as a link.
+                        After this your ready to get Bootstraping !
+
+                    </p>
+                    <p>
+                      Once you have done the linking your ready to get going to the races. the best way to start off is cover your mobile-first. Because bootstrap covers girnds and flex 
+                      very well which makes it easier  to scale up elements and optimize them for in all screen sizes. once you have made sure everything is up scaling the way you want you 
+                      can add all the flare you want.
+                    </p>
+                  </div>
+
+                  <div class="row"> 
+                    <div class="py-3 col-md-6">
+                        <h3>Where do I learn about the docmentation ?</h3>
+                        <p class="d-inline-block" >
+                            you can learn about all the docmentation of bootsrap thru their main page using the same link https://getbootstrap.com/docs/5.0/getting-started/introduction/
+                            for example I built this whole website using only bootstrap and followed and learned by looking thru the website for the info I needed. for example here is a
+                            card!
+                        </p>
+
+                    <div class="card" style="width: 18rem;">
+                  <div class="card-body bg-secondary">
+                  <h5 class="card-title">This is a Card I made </h5>
+                  <p class="card-text">following simple info and you too can make a card like this and take this fancy little button !</p>
+                  <a href="#" class="btn btn-primary">Click me</a>
+                  </div>
+                  </div>
+                        
+                      </div>
+                      
+                      <div class="py-3 col-md-6">
+                        <h3>Who made BootStrap?</h3>
+                        <p>
+                            Mark Otto and Jacob Thornton are the developers of Bootstrap story goes that they both worked at Twitter and were looking for ways
+                             as a means of improving the tools used on the make  website and reducing maintenance time and making it easier overall.
+                        </p>
+
+                          <!-- Img-fluid makes the image scale to whatever size the screen is which makes sizing super easy -->
+                        <div class="py-4 col-md-8 ">
+                            <img src="images/coding-all-in-one-mark-otto-jacob-thornton.jpg" class="img-fluid   " alt="computerscreen of code">
+                            </div>
+                       
+                  </div>
+                
+                  </div>
+            
+
+    </div>
+</div>
+  
+
+</body>
+    <!-- Footer -->
+    <footer class="navbar-dark bg-secondary text-white">
+      <div class="container">
+        <div class="row">
+          <div class="p-5">
+            <p class="text-center">&copy; Copyright 2021 - Derek Perreault</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
