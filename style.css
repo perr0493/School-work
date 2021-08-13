@@ -1,0 +1,47 @@
+.twitter-desktop  {
+    display:none;
+}
+
+.insta-desktop{
+    display: none;
+}
+
+.footerdown{
+    padding-top: 250px;
+}
+
+.jumbotron{
+    padding-top: 225px;
+}
+
+@media (min-width:768px){
+    .twitter-desktop  {
+        display: unset;
+    }
+    
+    .insta-desktop{
+        display: unset;
+    }
+    .twitter-mobile  {
+        display:none;
+    }
+    
+    .insta-mobile{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1920px){
+    .twitter-desktop {
+        padding-left: 1130px;
+    }
+    
+
+}
+
+
+
+
+
+
