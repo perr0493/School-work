@@ -13,6 +13,7 @@
 .jumbotron{
     padding-top: 225px;
 }
+  
 
 @media (min-width:768px){
     .twitter-desktop  {
@@ -34,7 +35,7 @@
 
 @media (min-width: 1920px){
     .twitter-desktop {
-        padding-left: 1130px;
+        padding-left: 1230px;
     }
     
 
