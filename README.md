@@ -9,8 +9,9 @@
 
 
 images
+https://unsplash.com/photos/zMJYmwca-_k-main background copyright free
 
- https://i.gzn.jp/img/2014/09/22/openavitogif/Hand%20on%20cereal%20field-k50.gif 
+ https://i.gzn.jp/img/2014/09/22/openavitogif/Hand%20on%20cereal%20field-k50.gif- I really loved this gif made the website look very good with it playing in the background but couldn't find the copyright for it so I cannot use it but it is in the files if you want to see what the site would look like with a gif its called handonwheat :)
 
 LIBRARIES
 
