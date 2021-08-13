@@ -24,7 +24,7 @@
                 <li class="nav-item mx-5"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item mx-5"><a class="nav-link" href="about.html">About</a></li>
                 <li class="nav-item mx-5"><a class="nav-link" href="project.html">Projects</a></li>
-                <li class="nav-item mx-5"><a class="nav-link" href="">Contact</a></li>
+                <li class="nav-item"><button class="nav-link btn btn-link " data-bs-toggle="modal" data-bs-target="#conmodal">Contact</button></li>
               </ul>
             </div>
             
@@ -65,7 +65,55 @@
     </div>
   </div>
   <!--End of Main content-->
+
+  <div class="modal fade" id="conmodal" tabindex="-1" aria-labelledby="conmodal-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
   
+        
+        <div class="modal-header mx-auto pb-0 border-bottom-0">
+          <h5 class="modal-title display-3 fw-bolder" id="conmodal-label">Contact Me</h5>
+        </div>
+        
+        <h2 class="lead text-center">Will get back to you soon as possible</h2>
+  
+        <div class="modal-body">
+  
+          <form>
+  
+            <div class="mb-3">
+              <label for="FullnameInput" class="form-label lead">Full Name</label>
+              <input type="text" class="form-control rounded-custom bg-light" id="FullnameInput">
+            </div>
+  
+            <div class="mb-3">
+              <label for="EmailInput" class="form-label lead">Email Address</label>
+              <input type="email" class="form-control rounded-custom bg-light" id="EmailInput">
+            </div>
+  
+            <div class="mb-3">
+              <label for="PhoneInput" class="form-label lead">Phone Number</label>
+              <input type="number" class="form-control rounded-custom bg-light" id="PhoneInput">
+            </div>
+  
+            <div class="mb-3">
+              <label for="MessageInput" class="form-label lead">Note</label>
+              <textarea class="form-control rounded-custom bg-light" id="MessageInput" rows="3"></textarea>
+            </div>
+            
+          </form>
+  
+        </div>
+  <!--Modal end-->
+        <!-- Start Of Modal Buttons -->
+        <div class="modal-footer ">
+          <button class="text-light lead text-decoration-none clickable btn btn-secondary" data-bs-dismiss="modal" tabindex="0">Cancel</button>
+          <button type="button" class="btn btn-secondary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Modal Buttons -->
 
 <!--Footer-->
 <footer class="footerdown navbar-dark bg-transparents text-dark">
